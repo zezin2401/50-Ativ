@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificação da Nota</title>
+</head>
+<body>
+    <script>
+        let nota = 8;
+        let classificacao;
+        if (nota >= 9 && nota <= 10) {
+            classificacao = 'A';
+        } else if (nota >= 7 && nota < 9) {
+            classificacao = 'B';
+        } else if (nota >= 5 && nota < 7) {
+            classificacao = 'C';
+        } else if (nota >= 3 && nota < 5) {
+            classificacao = 'D';
+        } else {
+            classificacao = 'E';
+        }
+        console.log("Classificação: " + classificacao);
+    </script>
+</body>
+</html>

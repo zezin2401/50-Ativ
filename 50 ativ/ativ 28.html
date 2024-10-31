@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maior Número em um Array</title>
+</head>
+<body>
+    <script>
+        let numeros = [10, 5, 20, 3, 8];
+        let maior = numeros[0];
+        for (let i = 1; i < numeros.length; i++) {
+            if (numeros[i] > maior) {
+                maior = numeros[i];
+            }
+        }
+        console.log("O maior número é: " + maior);
+    </script>
+</body>
+</html>
